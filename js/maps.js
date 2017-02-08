@@ -18,8 +18,8 @@ var options = {
 	},
 	center: new google.maps.LatLng(-7.245217594087794, 112.74455556869509),
 	zoom: 16,
-	disableDefaultUI: true,	
-	scrollwheel: false,
+	disableDefaultUI: true,
+	scrollwheel: true,
 	mapTypeId: 'Styled'
 };
 
@@ -42,4 +42,3 @@ map.mapTypes.set('Styled', styledMapType);
 
 
 }
-
